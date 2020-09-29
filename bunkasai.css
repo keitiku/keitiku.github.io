@@ -1,0 +1,112 @@
+* {margin:0px;
+   padding:0px;
+ }
+
+body{
+  font-family:"Avenir Next";
+  background-color: white;
+  font-size: 15px;
+  line-height: 2px;
+}
+.header {
+  background-color:rgba(135,135,135,0.6) ;
+  color: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  list-style: none;
+}
+
+.header-logo {
+  color: white;
+  font-size: 50px;
+  padding-top: 30px;
+ padding-left:20px;
+ float:left;
+ padding-right: 20px;
+}
+.header-list {
+  left: 20px;
+}
+
+.header-list li{
+  background-color: rgba(135,135,135,0);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: : all  0.3s ease;
+ font-size: 20px;
+ list-style: none;
+ float: left;
+ padding:29px 20px;
+ color: white;
+ left:20px;
+}
+
+.header-list li:hover {
+  background-color: rgba(92,92,92,0.8);
+}
+.icon-list li{
+  list-style: none;
+  float: left;
+  padding:5px 20px;
+}
+
+
+
+.main {
+
+  padding: 100px 80px;
+  line-height: 130px;
+  background-image:url(https://lh6.googleusercontent.com/VeYNfMco0WLKDv54KwKoRkFqQB3i1ToP4aIrVfTIRZg9Pc4cnU2F5YHmdeNy89XVDj-c8FSIsk-GurNYcRzQPeCZgCt23IJ-EI473I7n2XfUTE8Na5M=w1175);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
+
+}
+
+
+
+.chikuwa h1{
+  font-size:140px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.chikuwa h2{
+  font-size:60px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.chikuwa span{
+  color:#000080;
+}
+
+.chikuwa h3{
+  font-size:30px;
+  text-align: center;
+line-height:2px;
+}
+
+.chikuwa h4{
+font-size:30px;
+  text-align: center;
+  padding-bottom: 800px;
+}
+
+
+.foot {
+  background-color: #fafad2;
+    color:black;
+height:40px;
+padding-top:20px;
+font-size: 20px;
+text-align: center;
+position: fixed;
+width: 100%;
+
+
+}
